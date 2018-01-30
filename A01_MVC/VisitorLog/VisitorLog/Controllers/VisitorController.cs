@@ -14,6 +14,8 @@ namespace VisitorLog.Controllers
         [HttpPost]
         public ActionResult Login(Visitor visitor)
         {
+            visitor.LoginTime = DateTime.Now;
+            visitor.IpAdress = Request.UserHostAddress;
             db.Visitors.Add(visitor);
             db.SaveChanges();
             return View("Index", db.Visitors);

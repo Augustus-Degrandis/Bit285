@@ -65,3 +65,6 @@ C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\Visito
 C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\VisitorLog.dll
 C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\VisitorLog.pdb
 C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\VisitorLog.csprojResolveAssemblyReference.cache
+C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\VisitorLog.Migrations.InitialCreate.resources
+C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\VisitorLog.csproj.GenerateResource.Cache
+C:\Users\Gdegr\Desktop\Bit285_Git\A01_MVC\VisitorLog\VisitorLog\obj\Debug\VisitorLog.Migrations.MadechangestotheModel.resources

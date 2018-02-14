@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Augustus DeGrandis
+//Bit 285 Assignment 1
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;

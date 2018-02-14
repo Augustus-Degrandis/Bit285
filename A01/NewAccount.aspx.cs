@@ -16,11 +16,6 @@ public partial class NewAccount : System.Web.UI.Page
 
     protected void createAccount_Click(object sender, EventArgs e)
     {
-        if (CheckBox1.Checked == true && email.Text == "")
-        {
-            EmailValidation.Text = "*Required Field";
-            return;
-        }
         if (CheckBox1.Checked == true)
             Session["email"] = email.Text;
         Session["firstName"] = fName.Text;
@@ -34,5 +29,10 @@ public partial class NewAccount : System.Web.UI.Page
     protected void reset_Click(object sender, EventArgs e)
     {
         Response.Redirect("NewAccount.aspx");
+    }
+
+    protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+    {
+        emailValidation.Enabled = CheckBox1.Checked;
     }
 }
